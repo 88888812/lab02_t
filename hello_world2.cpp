@@ -1,6 +1,9 @@
 #include <iostream>
-using namespace std;
+#include <string>
+using namespace std ;
 int main()
 {
-cout « "Hello World!\n";
+string name;
+cin » name;
+cout « "Hello World!"«name;
 }
